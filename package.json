@@ -1,0 +1,30 @@
+{
+  "name": "book-store-backend",
+  "version": "1.0.0",
+  "description": "The backend portion of the book store app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "mongodb",
+    "firebase",
+    "node",
+    "express"
+  ],
+  "author": "Aditya Narayan Sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
